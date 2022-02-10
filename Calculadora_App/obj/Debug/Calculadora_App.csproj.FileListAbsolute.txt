@@ -9,3 +9,7 @@ C:\Users\Christian\Desktop\Christian_2DT\Estudo C#\Projeto Calculadora\Calculado
 C:\Users\Christian\Desktop\Christian_2DT\Estudo C#\Projeto Calculadora\Calculadora_app_executável\Calculadora_App\Calculadora_App\obj\Debug\Calculadora_App.csproj.CoreCompileInputs.cache
 C:\Users\Christian\Desktop\Christian_2DT\Estudo C#\Projeto Calculadora\Calculadora_app_executável\Calculadora_App\Calculadora_App\obj\Debug\Calculadora_App.exe
 C:\Users\Christian\Desktop\Christian_2DT\Estudo C#\Projeto Calculadora\Calculadora_app_executável\Calculadora_App\Calculadora_App\obj\Debug\Calculadora_App.pdb
+C:\Users\Christian\Desktop\Christian_2DT\Estudo C#\Projeto Calculadora\Calculadora_app_executável\Calculadora_App\Calculadora_App\bin\Debug\Calculadora_App.exe.manifest
+C:\Users\Christian\Desktop\Christian_2DT\Estudo C#\Projeto Calculadora\Calculadora_app_executável\Calculadora_App\Calculadora_App\bin\Debug\Calculadora_App.application
+C:\Users\Christian\Desktop\Christian_2DT\Estudo C#\Projeto Calculadora\Calculadora_app_executável\Calculadora_App\Calculadora_App\obj\Debug\Calculadora_App.exe.manifest
+C:\Users\Christian\Desktop\Christian_2DT\Estudo C#\Projeto Calculadora\Calculadora_app_executável\Calculadora_App\Calculadora_App\obj\Debug\Calculadora_App.application
