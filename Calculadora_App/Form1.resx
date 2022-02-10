@@ -1,0 +1,699 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btn_apagar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_apagar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_apagar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>643, 233</value>
+  </data>
+  <data name="btn_apagar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 43</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_apagar.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="btn_apagar.Text" xml:space="preserve">
+    <value>Clean</value>
+  </data>
+  <data name="&gt;&gt;btn_apagar.Name" xml:space="preserve">
+    <value>btn_apagar</value>
+  </data>
+  <data name="&gt;&gt;btn_apagar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_apagar.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btn_apagar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_ponto.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt</value>
+  </data>
+  <data name="btn_ponto.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_ponto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 481</value>
+  </data>
+  <data name="btn_ponto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 76</value>
+  </data>
+  <data name="btn_ponto.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="btn_ponto.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;btn_ponto.Name" xml:space="preserve">
+    <value>btn_ponto</value>
+  </data>
+  <data name="&gt;&gt;btn_ponto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_ponto.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btn_ponto.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_igual.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt</value>
+  </data>
+  <data name="btn_igual.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_igual.Location" type="System.Drawing.Point, System.Drawing">
+    <value>533, 481</value>
+  </data>
+  <data name="btn_igual.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 76</value>
+  </data>
+  <data name="btn_igual.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="btn_igual.Text" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="&gt;&gt;btn_igual.Name" xml:space="preserve">
+    <value>btn_igual</value>
+  </data>
+  <data name="&gt;&gt;btn_igual.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_igual.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btn_igual.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="num0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt</value>
+  </data>
+  <data name="num0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="num0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 481</value>
+  </data>
+  <data name="num0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 76</value>
+  </data>
+  <data name="num0.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="num0.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;num0.Name" xml:space="preserve">
+    <value>num0</value>
+  </data>
+  <data name="&gt;&gt;num0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;num0.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;num0.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="num9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt</value>
+  </data>
+  <data name="num9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="num9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>533, 397</value>
+  </data>
+  <data name="num9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 76</value>
+  </data>
+  <data name="num9.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="num9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;num9.Name" xml:space="preserve">
+    <value>num9</value>
+  </data>
+  <data name="&gt;&gt;num9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;num9.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;num9.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="num8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt</value>
+  </data>
+  <data name="num8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="num8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 397</value>
+  </data>
+  <data name="num8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 76</value>
+  </data>
+  <data name="num8.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="num8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;num8.Name" xml:space="preserve">
+    <value>num8</value>
+  </data>
+  <data name="&gt;&gt;num8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;num8.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;num8.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="num7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt</value>
+  </data>
+  <data name="num7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="num7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 397</value>
+  </data>
+  <data name="num7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 76</value>
+  </data>
+  <data name="num7.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="num7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;num7.Name" xml:space="preserve">
+    <value>num7</value>
+  </data>
+  <data name="&gt;&gt;num7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;num7.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;num7.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="num6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt</value>
+  </data>
+  <data name="num6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="num6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>533, 315</value>
+  </data>
+  <data name="num6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 76</value>
+  </data>
+  <data name="num6.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="num6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;num6.Name" xml:space="preserve">
+    <value>num6</value>
+  </data>
+  <data name="&gt;&gt;num6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;num6.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;num6.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="num5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt</value>
+  </data>
+  <data name="num5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="num5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 315</value>
+  </data>
+  <data name="num5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 76</value>
+  </data>
+  <data name="num5.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="num5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;num5.Name" xml:space="preserve">
+    <value>num5</value>
+  </data>
+  <data name="&gt;&gt;num5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;num5.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;num5.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="num4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt</value>
+  </data>
+  <data name="num4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="num4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 315</value>
+  </data>
+  <data name="num4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 76</value>
+  </data>
+  <data name="num4.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="num4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;num4.Name" xml:space="preserve">
+    <value>num4</value>
+  </data>
+  <data name="&gt;&gt;num4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;num4.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;num4.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="num3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt</value>
+  </data>
+  <data name="num3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="num3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>533, 233</value>
+  </data>
+  <data name="num3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 76</value>
+  </data>
+  <data name="num3.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="num3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;num3.Name" xml:space="preserve">
+    <value>num3</value>
+  </data>
+  <data name="&gt;&gt;num3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;num3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;num3.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="num2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt</value>
+  </data>
+  <data name="num2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="num2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 233</value>
+  </data>
+  <data name="num2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 76</value>
+  </data>
+  <data name="num2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="num2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;num2.Name" xml:space="preserve">
+    <value>num2</value>
+  </data>
+  <data name="&gt;&gt;num2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;num2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;num2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="num1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt</value>
+  </data>
+  <data name="num1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="num1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 233</value>
+  </data>
+  <data name="num1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 76</value>
+  </data>
+  <data name="num1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="num1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;num1.Name" xml:space="preserve">
+    <value>num1</value>
+  </data>
+  <data name="&gt;&gt;num1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;num1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;num1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btn_divisao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt</value>
+  </data>
+  <data name="btn_divisao.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_divisao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>618, 139</value>
+  </data>
+  <data name="btn_divisao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 76</value>
+  </data>
+  <data name="btn_divisao.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btn_divisao.Text" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="&gt;&gt;btn_divisao.Name" xml:space="preserve">
+    <value>btn_divisao</value>
+  </data>
+  <data name="&gt;&gt;btn_divisao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_divisao.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btn_divisao.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btn_multiplicacao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt</value>
+  </data>
+  <data name="btn_multiplicacao.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_multiplicacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>483, 139</value>
+  </data>
+  <data name="btn_multiplicacao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 76</value>
+  </data>
+  <data name="btn_multiplicacao.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btn_multiplicacao.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="&gt;&gt;btn_multiplicacao.Name" xml:space="preserve">
+    <value>btn_multiplicacao</value>
+  </data>
+  <data name="&gt;&gt;btn_multiplicacao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_multiplicacao.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btn_multiplicacao.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btn_subtracao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt</value>
+  </data>
+  <data name="btn_subtracao.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_subtracao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>353, 139</value>
+  </data>
+  <data name="btn_subtracao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 76</value>
+  </data>
+  <data name="btn_subtracao.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btn_subtracao.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;btn_subtracao.Name" xml:space="preserve">
+    <value>btn_subtracao</value>
+  </data>
+  <data name="&gt;&gt;btn_subtracao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_subtracao.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btn_subtracao.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="richTextBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20.25pt</value>
+  </data>
+  <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 50</value>
+  </data>
+  <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>577, 71</value>
+  </data>
+  <data name="richTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;richTextBox1.Name" xml:space="preserve">
+    <value>richTextBox1</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="btn_soma.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt</value>
+  </data>
+  <data name="btn_soma.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 139</value>
+  </data>
+  <data name="btn_soma.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 76</value>
+  </data>
+  <data name="btn_soma.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_soma.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="&gt;&gt;btn_soma.Name" xml:space="preserve">
+    <value>btn_soma</value>
+  </data>
+  <data name="&gt;&gt;btn_soma.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_soma.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btn_soma.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 66</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>916, 581</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 14</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1474, 701</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 8.25pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Calculadora Básica</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Tela_calculadora</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
