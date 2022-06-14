@@ -1,6 +1,6 @@
-# Primeiros Passos Bootstrap
+# Simples Calculadora desenvolvida em WinForms:
 
-Projeto desenvolvido durante as aulas do curso disponiblizado pelo Matheus Battisti no Youtube.
+Projeto desenvolvido com a finalidade de treinar conhecimentos básicos na liguagem C#.
 
 
 ## Imagens da Aplicação:
