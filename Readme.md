@@ -1,16 +1,31 @@
-# Projeto Calculadora C#
+# Primeiros Passos Bootstrap
 
-## prototipação do projeto
->Desenvolvido no Figma:
-![calc_c#](https://github.com/ChristianDev123/Calculadora_Basica_C-_winForm/blob/main/Prototipa%C3%A7%C3%A3o%20Projeto/prot%C3%B3tipo%20calculadora%20execut%C3%A1vel.PNG)
-## Objetivo do Projeto:
-O projeto foi desenvolvido para aplicação de conhecimentos na linguagem C#.
-Linguagem essa que neste momento estou em processo de aprendizado
+Projeto desenvolvido durante as aulas do curso disponiblizado pelo Matheus Battisti no Youtube.
 
-## Tecnologias Utilizadas:
+
+## Imagens da Aplicação:
+
+![Imagens da Aplicação](https://github.com/ChristianDev123/Calculadora_Basica_C-_winForm/blob/main/Prototipa%C3%A7%C3%A3o%20Projeto/prot%C3%B3tipo%20calculadora%20execut%C3%A1vel.PNG)
+
+## Como instalar localmente:
+
+No CMD do Windows ou no Bash do Linux Siga os Seguintes Passos:
+
+```cmd
+    git clone https://github.com/ChristianDev123/Calculadora_Basica_C-_winForm.git
+```
+```cmd
+    cd Calculadora_Basica_C-_winForm
+```
+
+> Certifique-se de que tem instalado o Visual Studio, SDK do Windows e todas ferramentas necessárias para desenvolvimento no framework Windows Forms
+
+- Abra o Visual Studio;
+- Selecione 'Abrir um Projeto ou uma solução';
+- Clique em iniciar;
+
+## Tecnologias utilizadas:
+
 - C# (Dotnet);
 - Biblioteca .NET;
 - Windows Form; 
-
-## Observações:
-> O motivo pelo aprendizado de tal linguagem é a minha tentativa de participação das olimpiadas do conhecimento pelo Senai Suiço-Brasileiro.
